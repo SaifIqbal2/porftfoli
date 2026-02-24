@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task 4 – E‑Portfolio Creation & Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Portfolio stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="justify">
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Task 4</h1>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html" aria-current="page">Task 4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="content">
+      <h2>a) Platform Choice & Rationale</h2>
+      <p>
+        I built a lightweight e‑portfolio using static HTML, CSS, and minimal JavaScript, and will deploy it on Vercel. This approach is fast, free for personal projects, and well‑suited to purely client‑side sites. Vercel’s platform automatically serves static assets (HTML/CSS/JS), provides preview and production environments, and integrates with Git for easy updates [1]. On the content side, I followed semantic HTML guidance to improve accessibility and structure, making pages easier to navigate and to export for screenshots [2].
+      </p>
+      <div class="figure">
+        <!-- Replace with your deployment flow diagram if you have one -->
+        <img src="images/placeholder-banner.svg" alt="Deployment flow diagram placeholder" data-lightbox>
+        <div class="caption">Deployment flow: local edits → Git push → Vercel deploys to a live URL.</div>
+      </div>
+      <h3>How I will deploy to Vercel</h3>
+      <ol>
+        <li>Create a GitHub repository and push this folder.</li>
+        <li>On <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a>, add a new project and import the repo.</li>
+        <li>No build command is needed (pure static). Set the root to the repository root.</li>
+        <li>Click Deploy to get a live URL; add a custom domain if desired [1].</li>
+      </ol>
+    </section>
+
+    <section class="content references">
+      <details class="refs">
+      <summary>References (IEEE)</summary>
+      <ol>
+        <li>
+          Vercel, “Deploying to Vercel,” 2026. [Online]. Available:
+          <a href="https://vercel.com/docs/deployments" target="_blank" rel="noopener">https://vercel.com/docs/deployments</a>
+        </li>
+        <li>
+          MDN Web Docs, “Semantic HTML,” 2026. [Online]. Available:
+          <a href="https://developer.mozilla.org/en-US/curriculum/core/semantic-html/" target="_blank" rel="noopener">https://developer.mozilla.org/.../semantic-html/</a>
+        </li>
+      </ol>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> My E‑Portfolio</p>
+      <p><a href="index.html">Back to Home</a></p>
+    </div>
+  </footer>
+  <!-- Interactivity (lightbox, active nav) -->
+  <script src="js/script.js"></script>
+</body>
+</html>

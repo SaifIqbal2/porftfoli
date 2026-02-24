@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#g)"/>
+  <g fill="none" stroke="#3b82f6" opacity="0.5">
+    <circle cx="200" cy="120" r="90"/>
+    <circle cx="980" cy="480" r="120"/>
+    <rect x="400" y="180" width="400" height="240" rx="24"/>
+  </g>
+  <text x="600" y="320" font-family="Inter,Arial,sans-serif" font-size="48" text-anchor="middle" fill="#e5e7eb">
+    E‑Portfolio Placeholder
+  </text>
+</svg>
