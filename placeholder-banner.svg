@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <rect width="1200" height="320" fill="#0f172a"/>
+  <rect x="16" y="16" width="1168" height="288" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <text x="600" y="175" font-family="Inter,Arial,sans-serif" font-size="28" text-anchor="middle" fill="#e5e7eb">
+    Banner / Figure Placeholder (3:1)
+  </text>
+</svg>
